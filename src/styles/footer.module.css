@@ -1,0 +1,16 @@
+.footer {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.item {
+  /* margin: 50px; */
+  background-color: #c5eeee;
+  padding: 5px 20px;
+  padding-left: 10px;
+  border-radius: 8px;
+}
+
+.item:last-child {
+  margin-left: 10px;
+}

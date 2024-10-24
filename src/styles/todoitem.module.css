@@ -1,0 +1,37 @@
+.item {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.itemName {
+  padding: 20px;
+}
+
+.deleteButton {
+  float: right;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-top: -6px;
+  cursor: pointer;
+  color: #a3dede;
+  font-weight: bold;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.item:has(.completed) {
+  background-image: linear-gradient(to right, #94d7d7, #c5eeee);
+
+  .deleteButton {
+    color: white;
+  }
+}

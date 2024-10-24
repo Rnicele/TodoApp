@@ -1,0 +1,20 @@
+.todoCard {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  margin: auto;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.line {
+  border: 1px solid #f4f4f4;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.line2 {
+  border: 1px solid #f4f4f4;
+  margin-bottom: 10px;
+}

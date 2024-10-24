@@ -1,0 +1,36 @@
+.header {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.headerText {
+  color: #96d8d8;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.addButton {
+  background-color: #96d8d8;
+  font-size: 24px;
+  border-radius: 100%;
+  border-style: none;
+  float: right;
+  padding: 2px 9px;
+}
+
+.date {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.show {
+  transform: rotate(0deg);
+  transition-duration: 0.5s;
+  transition-property: transform;
+}
+
+.hide {
+  transform: rotate(-45deg);
+  transition-duration: 0.5s;
+  transition-property: transform;
+}
